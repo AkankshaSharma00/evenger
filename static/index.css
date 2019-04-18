@@ -1,0 +1,148 @@
+.textP{
+	font-size: 26px;
+	font-family: 'Markazi Text';
+	margin-top: 20px;
+	margin-right: 100px;
+}
+
+.textHead1{
+	text-align: center;
+	font-family: 'Fredoka One';
+	font-size: 42px;
+}
+
+.textHead2{
+	text-align: left;
+	font-family: 'Markazi Text';
+	font-size: 32px;
+	font-weight: bold;
+}
+
+/************* CSS for Social Media links ***********************/
+.fa {
+  	padding: 20px;
+  	font-size: 26px;
+	width: 60px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5spx 1px;
+	border-radius: 50%;
+}
+
+.fa-facebook {
+	background: #3B5998;
+	color: white;
+}
+
+.fa-twitter {
+	background: #55ACEE;
+	color: white;
+}
+
+.fa-linkedin {
+  	background: #007bb5;
+  	color: white;
+}
+
+/****************************************************************/
+/**************** CSS for Contact Us Footer *********************/
+#ContactUsFooter{
+	background-color: #a3c2c2;
+	width:100%;
+	margin-top:30px;
+}
+/***************************************************************/
+
+/************** Sign Up Button *********************************/
+#signUpBtn{
+	margin-top: 80px;
+	margin-bottom: 30px;
+	background-color: #3fc4af;
+	border:none;
+	border-radius: 12px;
+	box-shadow: 2px 2px #3d3d3d;
+	width:130px;
+	height:60px;
+	font-family: 'Markazi Text';
+	font-size: 34px;
+}
+
+#signUpBtn:hover{
+	background-color: #d9d9d9;
+	border:2px solid #3fc4af;
+	color:#3fc4af;
+	font-weight: bold;
+	box-shadow: none;
+}
+
+/************** CSS for know more button **********************/
+.knowMoreBtn{
+	text-align: center;
+	border:none;
+	border-radius: 12px;
+	box-shadow: 2px 2px #3d3d3d;
+	margin-top: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width:150px;
+	margin-bottom: 50px;
+}
+
+.knowMoreBtn:hover{
+	border:2px solid #3fc4af;
+	color:#3fc4af;
+	font-weight: bold;
+	box-shadow: none;
+	background-color: #ffffff;
+}
+			
+/******************* CSS for Box *******************************/
+.box{
+	border:1px solid ;
+	margin-top: 20px;
+}
+
+.margin{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+/************** CSS for catergory button ***********************/
+.categoryBtn{
+	/*width:300px;*/
+	/*height: 200px;*/
+	border:none;
+}
+
+/************* CSS for Sidenavbar *****************************/
+.sidenav{
+	height:auto;
+	width: 200px;
+	position: relative;
+	z-index: 1;
+	background-color: #747474;
+	overflow-x: hidden;
+	padding-top:20px; 
+	/*margin-left: -123px;*/
+	margin-top: -20px;
+	padding-bottom: 20px;
+}
+
+.sidenav a{
+	color:#ffffff;
+	text-decoration: none;
+	display: block;
+}
+
+.sidenav a:hover{
+	color: #000000;
+}
+/*.active {
+	background-color: #000000;
+	padding-left: -123px;
+}*/
+
+/************************** CSS for DOB width *********************/
+.dob1{
+	height: 34px;
+}
